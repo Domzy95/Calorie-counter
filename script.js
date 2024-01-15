@@ -13,4 +13,6 @@ const output = document.getElementById("output");
 //IS ERROR
 let isError = false;
 // CLEAR INPUT STRING
-function cleanInputString(str) {}
+function cleanInputString(str) {
+  const regex = /\+-\s/; //+-\s/ looks for +, -, and a space in order.
+}
