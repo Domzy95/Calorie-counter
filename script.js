@@ -133,7 +133,7 @@ function clearForm() {
   output.classList.add("hide");
 }
 
-//!ADD ENTRY BUTTON
+//! BUTTONS
 //!
 addEntryButton.addEventListener("click", addEntry);
 calorieCounter.addEventListener("submit", calculateCalories);
